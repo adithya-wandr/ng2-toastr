@@ -2,9 +2,9 @@ import {Injectable} from '@angular/core';
 
 @Injectable()
 export class ToastOptions {
-  positionClass: string = 'toast-top-right';
-  maxShown: number = 5;
-  newestOnTop: boolean = false;
+  positionClass: string = 'toast-bottom-right';
+  maxShown: number = 6;
+  newestOnTop: boolean = true;
   animate: string = 'fade';
 
   // override-able properties
