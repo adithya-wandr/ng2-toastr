@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var ToastOptions = (function () {
     function ToastOptions() {
-        this.positionClass = 'toast-top-right';
-        this.maxShown = 5;
-        this.newestOnTop = false;
+        this.positionClass = 'toast-bottom-right';
+        this.maxShown = 6;
+        this.newestOnTop = true;
         this.animate = 'fade';
         // override-able properties
         this.toastLife = 5000;
